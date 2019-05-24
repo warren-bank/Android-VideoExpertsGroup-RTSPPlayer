@@ -1,0 +1,10 @@
+project.ext {
+    releaseVersionCode = 38
+    releaseVersion = '4.2.10'
+    minSdkVersion = 14
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.3'
+    javaVersion = JavaVersion.VERSION_1_8
+    jetpackVersion = '1.0.0'
+}

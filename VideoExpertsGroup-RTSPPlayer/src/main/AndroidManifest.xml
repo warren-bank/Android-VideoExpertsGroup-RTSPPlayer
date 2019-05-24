@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.rtspplayer.sample"
-    android:versionCode="38"
-    android:versionName="4.2.10"
     android:installLocation="auto" >
     
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
@@ -14,10 +12,6 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_LOGS"/>
-
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -42,7 +36,6 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data android:scheme="rtmp" />
                 <data android:scheme="rtmpe" />
                 <data android:scheme="rtmps" />
@@ -61,9 +54,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:mimeType="video/*" />
-
-<data android:mimeType="audio/*" />
-
+                <data android:mimeType="audio/*" />
                 <data android:scheme="rtmp" />
                 <data android:scheme="rtmpe" />
                 <data android:scheme="rtmps" />
